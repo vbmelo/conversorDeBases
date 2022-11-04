@@ -1,9 +1,11 @@
 import styles from './Header.module.css';
+import { Swap } from "phosphor-react";
 
 export function Header() {
     return (
         <header className={styles.header}>
-            <h1>Conversor de Bases</h1>
+            <Swap size={80} />
+            <p>CONVERSOR DE BASES</p>
         </header>
     )
 }
